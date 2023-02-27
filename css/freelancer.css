@@ -4,10 +4,35 @@
     box-sizing: border-box;
 }
 body{
-
+    font-family: 'Roboto', sans-serif;
 }
 .container{
     width: 1200px;
     margin: 0 auto;
-    background-color: wheat;
+}
+#posibilities{
+    margin: 60px 0;
+}
+.main-title h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.main-title p{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.posibilities-data{
+    display: flex;
+}
+.posibilities-data .data img{
+    width: 80px;
+    height: 80px;
+}
+.posibilities-data .data h3{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+.posibilities-data .data p{
+    font-size: 19px;
 }
