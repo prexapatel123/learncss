@@ -1,0 +1,29 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+}
+
+.demoinline span{
+    width: 10px;
+    height: 10px;
+    background-color: brown;
+    margin: 50px;
+    padding: 50px;
+    display: inline;
+}
+.demoinline span{
+    display: inline-block;
+    background-color: coral;
+    width:50px ;
+    height: 50px;
+    margin: 100px;
+    padding: 100px;
+}
+#none{
+    display: none;
+}

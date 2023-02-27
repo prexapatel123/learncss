@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Itim&family=Sofia+Sans+Extra+Condensed:wght@1&display=swap');
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url(../fonts/CaviarDreams_BoldItalic-webfont.woff);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url(../fonts/CaviarDreams_Italic-webfont.woff);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SofiaSansExtraCondensed-Italic-VariableFont';
+    src: url(../fonts/SofiaSansExtraCondensed-Italic-VariableFont_wght.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lora-VariableFont';
+    src: url(../fonts/Lora-VariableFont_wght.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lora-Italic-VariableFont';
+    src: url(../fonts/Lora-Italic-VariableFont_wght.ttf);
+    font-style: italic;
+    font-weight: 500;
+}
+
+
+p {
+    font-size: 35px;
+}
+
+#seri {
+    font-family: serif;
+}
+
+#sanseri {
+    font-family: sans-serif;
+}
+
+#mono {
+    font-family: monospace;
+}
+
+#fan {
+    font-family: fantasy;
+}
+
+#cur {
+    font-family: cursive;
+}
+
+#link {
+    font-family: 'Inter', sans-serif;
+}
+
+#import {
+    font-family: 'Itim', cursive;
+}
+
+#gdwld {
+    font-family: Lora-Italic-VariableFont;
+}
+
+#gdwld1 {
+    font-family: Lora-VariableFont;
+}
+
+#gdwld2 {
+    font-family: SofiaSansExtraCondensed-Italic-VariableFont;
+}
+#custom{
+    font: italic normal bold 20px 'CaviarDreams';
+}

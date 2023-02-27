@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url(../fonts/CaviarDreams.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Caviar_Dreams';
+    src: url(../fonts/Caviar_Dreams_Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back {
+    width: 70%;
+    height: 70vh;
+    border: 1px solid black;
+    font-family: 'Caviar_Dreams';
+    /*text-align: center;*/
+    margin: 100px 150px;
+    padding: 30px;
+}
+.title{
+    width: 60%;
+    height: 60px;
+    float: left;
+}
+
+.title h4 {
+    font-size: 30px;
+    margin-left: 28px;
+}
+.title h3{
+    color: blue;
+    font-size: 10px;
+    margin-left: 28px;
+}
+.title-img {
+    width: 180px;
+    height: 40px;
+    background-color: cadetblue;
+    border-radius: 50px;
+    margin-right: 30px;
+    float: right;
+}
+
+h1 {
+    padding: 3px 60px;
+    color: white;
+    font-size: 30px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+    width: 310px;
+    height: 200px;
+    background-color: white;
+    margin: 10px 30px;
+    border-radius: 10px;
+}
+
+.box1 {
+    clear: both;
+    float: left;
+}
+
+.box2 {
+    float: left;
+}
+
+.box3 {
+    float: left;
+}
+
+.box4 {
+    clear: both;
+    float: left;
+}
+
+.box5 {
+    float: left;
+}
+
+.box6 {
+    float: left;
+}
+
+.box1 .s1,
+.box2 .s2,
+.box3 .s3,
+.box4 .s4,
+.box5 .s5,
+.box6 .s6 {
+    width: 100%;
+    height: 70%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.p1 h1 span,
+.p2 h1 span,
+.p3 h1 span,
+.p4 h1 span,
+.p5 h1 span,
+.p6 h1 span {
+    color: blue;
+}
+
+.s1 {
+    background: url(./image/s1.jpeg);
+    border-radius: 10px;
+}
+
+.s2 {
+    background: url(./image/s2.jpeg);
+    border-radius: 10px;
+}
+
+.s3 {
+    background: url(./image/s3.jpeg);
+    border-radius: 10px;
+}
+
+.s4 {
+    background: url(./image/s4.jpeg);
+    border-radius: 10px;
+}
+
+.s5 {
+    background: url(./image/s5.jpeg);
+    border-radius: 10px;
+}
+
+.s6 {
+    background: url(./image/s6.jpeg);
+    border-radius: 10px;
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6 {
+    width: 60%;
+    height: 30%;
+    background-color:white;
+    float: left;
+}
+
+.p1 h1,
+.p2 h1,
+.p3 h1,
+.p4 h1,
+.p5 h1,
+.p6 h1 {
+    font-size: 10px;
+    color: black;
+    float: left;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+.p1 p,
+.p2 p,
+.p3 p,
+.p4 p,
+.p5 p,
+.p6 p{
+    font-size: 12px;
+    text-align: left;
+    padding-top: 7px;
+    padding-left: 5px;
+    clear: both;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5,
+.btn6 {
+    width: 22px;
+    height: 22px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 4px 0;
+    float: right;
+}
+
+.btn1 i,
+.btn2 i,
+.btn3 i,
+.btn4 i,
+.btn5 i,
+.btn6 i {
+    font-size: 12px;
+    padding: 4px;
+}
+.order {
+    width: 200px;
+    height: 40px;
+    background-color:yellowgreen;
+    border-radius: 50px;
+    clear: both;
+    margin: 40px 40%;
+}
+.order p {
+    color: white;
+    font-size: 20px;
+    padding: 8px 45px;
+}

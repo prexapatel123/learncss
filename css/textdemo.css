@@ -1,0 +1,23 @@
+#color{
+    color: brown;
+    color: #00ff00;
+    color: rgba(0,0,255,0.4);
+    color: hsla(320, 30%, 50%, 0.5);
+}
+#align{
+    text-align: center;
+    text-align: right;
+} 
+#trans{
+    text-transform: capitalize;
+    text-transform: uppercase;
+}
+#deco{
+    text-decoration-style:none;
+}
+#indent{
+    text-indent: 20px;
+    word-spacing: 30px;
+    line-height: 50px;
+    white-space: normal;
+}

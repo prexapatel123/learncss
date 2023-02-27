@@ -1,0 +1,36 @@
+.box1{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+.box2{
+    width: 50%;
+    height: 200px;
+    background-color: blueviolet;
+}
+.box3{
+    width: 20rem;
+    height: 20rem;
+    background-color: aqua;
+}
+.parent{
+    font-size: 30px;
+}
+.child{
+    width: 10em;
+    height: 10em;
+    background-color: blue;
+}
+.parent1{
+    font-size: 20px;
+}
+.child1{
+    width: 20rem;
+    height: 20rem;
+    background-color: aquamarine;
+}
+.box5{
+    width: 60vw;
+    height: 60vh;
+    background-color: coral;
+}

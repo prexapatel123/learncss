@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.p1{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 1px solid white;
+    background: url(./image/p1.jpeg);
+    border-radius: 20px 0 0 0;
+    background-size: cover;
+    background-position: center center;
+    float: left;
+}
+.p2{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 1px;
+    border: 1px solid white;
+    background: url(./image/p2.jpeg);
+    background-size: cover;
+    background-position: center center;
+    float: left;
+}
+
+.p3{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 1px;
+    border: 1px solid white;
+    background: url(./image/p3.jpeg);
+    background-size: cover;
+    background-position: center center;
+    float: left;
+}
+
+.p4{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 1px;
+    border: 1px solid white;
+    background: url(./image/p4.jpeg);
+    border-radius: 0 20px 0 0;
+    background-size: cover;
+    background-position: center left;
+    float: left;
+}
+.p5{
+    width: 200px;
+    height: 200px;
+    margin-top: 1px;
+    margin-left:50px;
+    border: 1px solid white;
+    background: url(./image/p5.jpeg);
+    background-size: cover;
+    background-position: bottom center;
+    float:left;
+    clear: both;
+}
+.p6{
+    width: 200px;
+    height: 200px;
+    margin-top: 1px;
+    margin-left: 1px;
+    border: 1px solid white;
+    background: url(./image/p6.jpeg);
+    background-size: cover;
+    background-position: bottom center;
+    float:left;
+}
+.p7{
+    width: 200px;
+    height: 200px;
+    margin-top: 1px;
+    margin-left: 1px;
+    border: 1px solid white;
+    background: url(./image/p7.jpeg);
+    background-size: cover;
+    background-position: center center;
+    float:left;
+}
+.p8{
+    width: 200px;
+    height: 200px;
+    margin-top: 1px;
+    margin-left: 1px;
+    border: 1px solid white;
+    background: url(./image/p8.jpeg);
+    background-size: cover;
+    background-position: center right;
+    float:left;
+}
+.p9{
+    width: 200px;
+    height: 200px;
+    margin-top: 1px;
+    margin-left:50px;
+    border: 1px solid white;
+    background: url(./image/p9.jpeg);
+    border-radius: 0 0 0 20px;
+    background-size: cover;
+    background-position: center center;
+    float:left;
+    clear: both;
+}
+.p10{
+    width: 200px;
+    height: 200px;
+    margin-top: 1px;
+    margin-left: 1px;
+    border: 1px solid white;
+    background: url(./image/p10.jpeg);
+    background-size: cover;
+    background-position: center center;
+    float:left;
+}
+.p11{
+    width: 200px;
+    height: 200px;
+    margin-top: 1px;
+    margin-left: 1px;
+    border: 1px solid white;
+    background: url(./image/p11.jpeg);
+    background-size: cover;
+    background-position: center left;
+    float:left;
+}
+.p12{
+    width: 200px;
+    height: 200px;
+    margin-top: 1px;
+    margin-left: 1px;
+    border: 1px solid white;
+    background: url(./image/p12.jpeg);
+    border-radius: 0 0 20px 0;
+    background-size: cover;
+    background-position: bottom center;
+    float:left;
+}
+

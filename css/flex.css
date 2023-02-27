@@ -1,0 +1,94 @@
+.main-box {
+    display: flex;
+    border: 1px solid black;
+    height: 600px;
+    gap: 10px 10px;
+}
+
+.box1 {
+    width: 200px;
+    height: 180px;
+    background-color: aquamarine;
+}
+
+.box2 {
+    width: 180px;
+    height: 200px;
+    background-color: slateblue;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.justifyc {
+    justify-content: center;
+}
+
+.justify {
+    justify-content: space-between;
+}
+
+.justifyar {
+    justify-content: space-around;
+}
+
+.justifyev {
+    justify-content: space-evenly;
+}
+
+.algitm {
+    align-items: center;
+}
+
+.algbet {
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.algar {
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.algev {
+    align-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.flxdr {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.slfalg {
+    align-self: flex-end;
+
+}
+
+.cen {
+    align-items: center;
+}
+
+.start {
+    align-self: flex-start;
+}
+
+.grow1 {
+    flex-grow: 1;
+}
+
+.grow2 {
+    flex-grow: 4;
+}
+
+.shr0 {
+    flex-shrink: 0;
+}
+
+.shr3 {
+    flex-shrink: 3;
+}
