@@ -11,14 +11,14 @@ body{
     margin: 0 auto;
 }
 #posibilities{
-    margin: 60px 0;
+    margin: 80px 0;
 }
 .main-title h2{
     font-size: 40px;
     margin-bottom: 30px;
 }
 .main-title p{
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 40px;
 }
 .posibilities-data{
@@ -29,7 +29,7 @@ body{
     height: 80px;
 }
 .posibilities-data .data h3{
-    font-size: 22px;
+    font-size: 23px;
     margin-top: 20px;
     margin-bottom: 16px;
 }
@@ -43,18 +43,20 @@ body{
 #work .container{
     display: flex;
 }
-#work{
+#work {
     margin: 60px 0;
 }
-#work .container .main-title{
-    margin: 0 70px;
+#work .container .work-data{
+    margin: 0 90px;
 }
-.main-title h3{
-    font-size: 22px;
+.work-data h3{
+    font-size: 20px;
     margin-bottom: 14px;
 }
-.main-title p{
-    font-size: 17px;
+.work-data p{
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 26px;
 }
 .btn{
     width: 180px;
@@ -63,6 +65,70 @@ body{
     border-radius: 5px;
     margin-top: 50px;
     color: white;
-    padding: 9px 21px;
+    padding: 10px 26px;
+}
+#control .container{
+    display: flex;
+}
+#control{
+    margin: 60px 0;
+}
+.inner-data{
+    display: flex;
+}
+.inner-data .chat img,
+.inner-data .mobile img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 25px;
+}
+.chat,
+.mobile{
+    padding-right: 30px;
 }
 
+.control-img img{
+    width: 540px;
+    height: 540px;
+}
+.chat h3,
+.mobile h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.chat p,
+.mobile p{
+    font-size: 20px;
+}
+#secure .container{
+    display: flex;
+}
+.secure-img img{
+    width: 500px;
+    height: 500px;
+}
+.inner-data .pay img,
+.inner-data .support img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 25px;
+}
+.pay h3,
+.support h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.pay p,
+.support p{
+    font-size: 20px;
+}
+.secure-data{
+    padding: 0 70px;
+}
+.pay,
+.secure{
+    padding-right: 30px;
+}
+#design{
+    margin: 60px 0;
+}
