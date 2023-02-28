@@ -1,134 +1,197 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Roboto', sans-serif;
 }
-.container{
+
+.container {
     width: 1200px;
     margin: 0 auto;
 }
-#posibilities{
+
+#posibilities {
     margin: 80px 0;
 }
-.main-title h2{
+
+.main-title h2 {
     font-size: 40px;
     margin-bottom: 30px;
 }
-.main-title p{
-    font-size: 22px;
+
+.main-title p {
+    font-size: 24px;
     margin-bottom: 40px;
 }
-.posibilities-data{
+
+.posibilities-data {
     display: flex;
 }
-.posibilities-data .data img{
+
+.posibilities-data .data img {
     width: 80px;
     height: 80px;
 }
-.posibilities-data .data h3{
+
+.posibilities-data .data h3 {
     font-size: 23px;
     margin-top: 20px;
     margin-bottom: 16px;
 }
-.posibilities-data .data p{
+
+.posibilities-data .data p {
     font-size: 19px;
 }
-.container .img img{
+
+.container .img img {
     width: 520px;
     height: 520px;
 }
-#work .container{
+
+#work .container {
     display: flex;
 }
+
 #work {
     margin: 60px 0;
 }
-#work .container .work-data{
+
+#work .container .work-data {
     margin: 0 90px;
 }
-.work-data h3{
+
+.work-data h3 {
     font-size: 20px;
     margin-bottom: 14px;
 }
-.work-data p{
+1
+.work-data p {
     font-size: 16px;
     margin-top: 16px;
     margin-bottom: 26px;
 }
-.btn{
+
+.work-data .btn {
     width: 180px;
     height: 45px;
-    background-color:#f20091;
+    background-color: #f20091;
     border-radius: 5px;
     margin-top: 50px;
     color: white;
     padding: 10px 26px;
 }
-#control .container{
+
+#control .container {
     display: flex;
 }
-#control{
+
+#control {
     margin: 60px 0;
 }
-.inner-data{
+
+.inner-data {
     display: flex;
 }
+
 .inner-data .chat img,
-.inner-data .mobile img{
+.inner-data .mobile img {
     width: 70px;
     height: 70px;
     margin-bottom: 25px;
 }
+
 .chat,
-.mobile{
+.mobile {
     padding-right: 30px;
 }
 
-.control-img img{
+.control-img img {
     width: 540px;
     height: 540px;
 }
-.chat h3,
-.mobile h3{
+
+.inner-data .chat h3,
+.inner-data .mobile h3 {
     font-size: 20px;
     margin-bottom: 15px;
 }
+
 .chat p,
-.mobile p{
+.mobile p {
     font-size: 20px;
 }
-#secure .container{
+
+#secure .container {
     display: flex;
 }
-.secure-img img{
+
+.secure-img img {
     width: 500px;
     height: 500px;
 }
+
 .inner-data .pay img,
-.inner-data .support img{
+.inner-data .support img {
     width: 70px;
     height: 70px;
     margin-bottom: 25px;
 }
+
 .pay h3,
-.support h3{
+.support h3 {
     font-size: 20px;
     margin-bottom: 15px;
 }
+
 .pay p,
-.support p{
+.support p {
     font-size: 20px;
 }
-.secure-data{
+
+.secure-data {
     padding: 0 70px;
 }
+
 .pay,
-.secure{
+.secure {
     padding-right: 30px;
 }
-#design{
+
+#design {
     margin: 60px 0;
+}
+.page-design {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 23px;
+}
+.page-design .logo,
+.page-design .label,
+.page-design .mobile,
+.page-design .package,
+.page-design .interior,
+.page-design .web {
+    font-size: 19px;
+}
+.page-design img{
+    width: 370px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.page-design h3{
+    padding: 3px 0;
+}
+#design .container .btn{
+    width: 220px;
+    height: 50px;
+    background-color: #f20091;
+    border-radius: 5px;
+    margin: 60px 500px;
+    color: white;
+    padding: 14px 27px;
+    display: inline-block;
+
 }
