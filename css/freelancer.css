@@ -181,30 +181,41 @@ body {
     padding: 3px 0;
 }
 
-#design .container .btn {
-    width: 220px;
-    height: 50px;
+
+button {
     background-color: #f20091;
-    border-radius: 5px;
-    margin: 50px;
+    border: none;
     color: white;
-    padding: 14px 27px;
+    padding: 14px 26px;
+    font-size: 17px;
+    border-radius: 3px;
+    margin-top: 50px;
 }
 
-.botton {
+.btn {
     display: flex;
     justify-content: center;
 }
 
 #help {
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(31, 40, 54);
     color: white;
+
 }
-.help-data{
+
+#help .container .main-title h2 {
+    padding-top: 50px;
+}
+
+.help-data {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 130px;
+}
+
+.help-data p {
     color: white;
-   display: inline-block;
-   display: flex;
-   flex-wrap: wrap;
-   gap: 20px 130px;
-   justify-content: center;
+    font-size: 22px;
+    margin-bottom: 40px;
 }
