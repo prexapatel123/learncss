@@ -13,31 +13,72 @@ body {
     margin: 0 auto;
 }
 
-.main-head {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 20px;
+header {
+    margin: 20px 0;
 }
 
-.skills {
+.head-left {
+
     display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    gap: 0 30px;
+    align-items: center;
 
 }
 
-.skills img {
+.head-left ul {
+    list-style-type: none;
     display: inline-block;
-    width: 130px;
-
 }
 
-.skills a {
+.head-left ul li {
+    display: inline-block;
+}
+
+.head-left ul li a {
     text-decoration: none;
-    width: 125px;
-
+    color: black;
+    margin: 0 17px;
 }
+
+#header-main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-right ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.head-right ul li {
+    display: inline-block;
+}
+
+.head-right ul li a {
+    margin-right: 34px;
+    text-decoration: none;
+    color: black;
+}
+.head-right ul li a:hover,
+.head-left ul li a:hover{
+    color: royalblue;
+}
+
+.head-right button {
+    border: none;
+    border-radius: 3px;
+    background-color: #f20091;
+    color: white;
+    padding: 9px 12px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.head-right button:hover{
+    background-color: #80034e;
+}
+
+
+
 
 .login {
     display: flex;
