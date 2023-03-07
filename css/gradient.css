@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 30px;
+    border: 2px solid black;
+}
+
+.box1 {
+    background: linear-gradient(to bottom, red, blue);
+}
+
+.box2 {
+    background: linear-gradient(to top right, pink, blue);
+}
+
+.box3 {
+    background: linear-gradient(60deg, yellow, green);
+}
+
+.box4 {
+    background: linear-gradient(to right top, red, yellow, blue);
+}
+
+.box5 {
+    background: linear-gradient(rgba(24, 8, 8, 0.9), rgba(35, 78, 114, 0.1));
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.overlay1, .overlay2, .overlay3, .overlay4{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    float: left;
+
+
+}
+
+
+
+.overlay1 {
+    background: linear-gradient(rgba(55, 50, 128, 0.6), rgba(219, 171, 171, 0.1)), url(../image/natural.jpeg);
+    background-size: cover;
+    background-position: bottom center;
+
+}
+
+.overlay2 {
+    background: url(../image/natural.jpeg);
+    background-size: cover;
+    background-position: bottom center;
+    position: relative;
+}
+
+.overlay2::before {
+    content: '';
+    background: linear-gradient(rgba(55, 50, 128, 0.6), rgba(219, 171, 171, 0.1));
+    position: absolute;
+    inset: 0;
+}
+
+.overlay3 {
+    
+    
+    background: linear-gradient(rgba(55, 50, 128, 0.6), rgba(219, 171, 171, 0.1));
+
+}
+
+
+
+.overlay3 img ,
+.overlay4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    z-index: -1;
+    position: relative;
+}
+.overlay4 {
+    
+    position: relative;
+    
+}
+
+.overlay4::before {
+    content: '';
+    background: linear-gradient(rgba(55, 50, 128, 0.6), rgba(219, 171, 171, 0.1));
+    position: absolute;
+    inset: 0;
+}
