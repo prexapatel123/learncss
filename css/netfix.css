@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-#main{
+#main {
     background: url(../image/netfix.jpg);
     width: 100%;
     height: 100vh;
@@ -19,26 +19,30 @@
     inset: 0;
     position: absolute;
 }
+
 .main-title {
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
-    
+
 }
+
 .title-left img {
     width: 170px;
     height: 100px;
     z-index: 9;
     position: relative;
 }
-.title-right{
+
+.title-right {
     display: inline-block;
     z-index: 9;
     position: relative;
     margin-top: 30px;
 
 }
+
 button {
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid white;
@@ -48,41 +52,46 @@ button {
     margin-right: 20px;
 
 }
-select{
+
+select {
     width: 80px;
     height: 35px;
     background-color: rgba(0, 0, 0, 0);
     color: white;
     border: none;
 }
-use{
-    padding-right:10px;
+
+use {
+    padding-right: 10px;
 }
+
 .title-right i {
     display: inline-block;
     padding-left: 10px;
     font-size: 12px;
 }
-.s {
-   
+
+.sign {
+
     background-color: #E50914;
     border: none;
     border-radius: 3px;
     font-size: 17px;
     padding: 9px 23px;
-
-}
-.s:hover{
-    background-color: #ce4047;
-}
-.s a{
     text-decoration: none;
     color: white;
+
 }
-.container{
+
+.sign:hover {
+    background-color: #ce4047;
+}
+
+.container {
     width: 675px;
-    margin: 90px auto;
+    margin: 250px auto;
 }
+
 .login {
     color: white;
     z-index: 9;
@@ -91,32 +100,38 @@ use{
     text-align: center;
 
 }
-.login h1{
-    
+
+.login h1 {
+
     font-size: 50px;
 }
-.login h1+p{
+
+.login h1+p {
     font-size: 25px;
-   
+
     padding-top: 25px;
 }
-.login p{
+
+.login p {
 
     font-size: 19px;
     padding-top: 20px;
 }
-input{
+
+input {
     margin-top: 20px;
     background-color: rgba(0, 0, 0, 0.274);
     border: 1px solid rgb(194, 190, 190);
     border-radius: 4px;
     width: 65%;
-    height:55px;
+    height: 55px;
     font-size: 17px;
     font-weight: bold;
     padding-left: 15px;
+    outline: none;
 }
-.e{
+
+.email-add {
     display: inline-block;
     height: 56px;
     background-color: #E50914;
@@ -124,14 +139,13 @@ input{
     border-radius: 4px;
     padding: 0 27px;
     margin-left: 10px;
-
-}
-.e:hover{
-    background-color: #ce4047;
-}
-.e a{
     text-decoration: none;
     color: white;
     font-size: 22px;
     font-weight: bold;
+
+}
+
+.email-add:hover {
+    background-color: #ce4047;
 }
