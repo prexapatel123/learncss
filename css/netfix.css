@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    background: url(../image/netfix.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#main::before {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7));
+    content: '';
+    inset: 0;
+    position: absolute;
+}
+.main-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    
+}
+.title-left img {
+    width: 170px;
+    height: 100px;
+    z-index: 9;
+    position: relative;
+}
+.title-right{
+    display: inline-block;
+    z-index: 9;
+    position: relative;
+    margin-top: 30px;
+
+}
+button {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    margin-right: 20px;
+
+}
+select{
+    width: 80px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+}
+use{
+    padding-right:10px;
+}
+.title-right i {
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.s {
+   
+    background-color: #E50914;
+    border: none;
+    border-radius: 3px;
+    font-size: 17px;
+    padding: 9px 23px;
+
+}
+.s:hover{
+    background-color: #ce4047;
+}
+.s a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    width: 675px;
+    margin: 90px auto;
+}
+.login {
+    color: white;
+    z-index: 9;
+    position: relative;
+    font-family: 'Golos Text', sans-serif;
+    text-align: center;
+
+}
+.login h1{
+    
+    font-size: 50px;
+}
+.login h1+p{
+    font-size: 25px;
+   
+    padding-top: 25px;
+}
+.login p{
+
+    font-size: 19px;
+    padding-top: 20px;
+}
+input{
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.274);
+    border: 1px solid rgb(194, 190, 190);
+    border-radius: 4px;
+    width: 65%;
+    height:55px;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+.e{
+    display: inline-block;
+    height: 56px;
+    background-color: #E50914;
+    border: none;
+    border-radius: 4px;
+    padding: 0 27px;
+    margin-left: 10px;
+
+}
+.e:hover{
+    background-color: #ce4047;
+}
+.e a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
