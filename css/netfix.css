@@ -25,6 +25,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
+    position: relative;
 
 }
 
@@ -89,7 +90,13 @@ use {
 
 .container {
     width: 675px;
-    margin: 250px auto;
+    margin: 0 auto;
+}
+.login{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .login {
