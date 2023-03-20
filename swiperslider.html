@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/swiperslider.css">
+</head>
+
+<body>
+    <div class="main-slider">
+        <div class="swiper abc">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="./image/f1.jpeg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/f2.jpeg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/f3.jpeg" alt="">
+                </div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </div>
+    <div class="main-slider1">
+        <div class="swiper xyz">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./image/f1.jpeg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/f2.jpeg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/f3.jpeg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/f4.jpeg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/s1.jpeg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/s2.jpeg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/s3.jpeg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/s4.jpeg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./image/s5.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.abc', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+    </script>
+    <script>
+        var swiper1 = new Swiper(".xyz", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 5,
+                    spaceBetween: 50,
+                },
+            },
+        });
+    </script>
+
+</body>
+
+</html>
