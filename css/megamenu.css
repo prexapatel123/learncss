@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+header .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    color: black;
+    font-size: 18px;
+}
+
+header nav>ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin-right: 24px;
+    font-size: 18px;
+}
+
+.megamenu {
+    position: absolute;
+    top: 60px;
+    left: 51%;
+    background-color: grey;
+    display: flex;
+    list-style-type: none;
+    padding: 15px;
+}
+
+.megamenu ul {
+    list-style-type: none;
+    position: relative;
+}
+
+.megamenu>li {
+    padding-right: 20px;
+}
+
+.megamenu h3 {
+    padding-bottom: 14px;
+}
+
+.megamenu ul::before {
+    content: '';
+    width: 2px;
+    height: 80px;
+    background-color: black;
+    inset: 0;
+    position: absolute;
+    left: 82px;
+}
+
+.megamenu ul::before:last-child {
+    display: none;
+}
