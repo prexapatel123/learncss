@@ -14,7 +14,6 @@ header .container {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
 }
 
 .logo {
@@ -25,13 +24,15 @@ header .container {
 header nav>ul {
     list-style-type: none;
     display: flex;
+    gap: 0 24px;
 }
 
 header nav ul li a {
     text-decoration: none;
     color: black;
-    margin-right: 24px;
     font-size: 18px;
+    padding: 15px 0;
+    display: inline-block;
 }
 
 /* .megamenu {
@@ -78,15 +79,26 @@ header nav ul li a {
 header nav > ul > li:hover .megamenu{
     display: flex;
 } */
+
 header nav>ul>li {
     position: relative;
+}
+header nav>ul>li a i{
+    font-size: 13px;
+}
+header nav>ul>li a:hover i{
+    transform: rotate(90deg);
+}
+
+header nav>ul>li :hover {
+    color: rgb(140, 55, 55);
 }
 
 header .megamenu {
     position: absolute;
-    top: 41px;
-    right: 1px;
-    opacity: 0;
+    top: 51px;
+    right: 0;
+    display: none;
 }
 
 header .megamenu li {
@@ -94,36 +106,41 @@ header .megamenu li {
     height: 50px;
     border: 1px solid black;
     list-style-type: none;
-    padding: 15px 12px;
+}
+
+header .megamenu li a {
+    display: inline-block;
+    padding: 15px 14px;
+    
+}
+header .megamenu li a i{
+    font-size: 12px;
 }
 
 header .megamenu li:hover {
     background-color: grey;
 }
 
-.megamenu li i {
-    font-size: 15px;
+header .megamenu li a:hover,
+header .megamenu li a i:hover{
+    color: white;
+}
+
+.megamenu>li {
+    position: relative;
 }
 
 .submenu {
     position: absolute;
-    top: 50px;
+    top: 0;
     left: 99px;
-    opacity: 0;
-}
-
-.submenu li {
-    width: 100px;
-    height: 50px;
-    border: 1px solid black;
-    list-style-type: none;
-    padding: 15px 12px;
+    display: none;
 }
 
 nav>ul>li:hover .megamenu {
-    opacity: 1;
+    display: block;
 }
 
-.megamenu > li:hover .submenu {
-    opacity: 1;
+.megamenu>li:hover .submenu {
+    display: block;
 }
