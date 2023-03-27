@@ -14,7 +14,7 @@ header .container {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .logo {
@@ -34,39 +34,96 @@ header nav ul li a {
     font-size: 18px;
 }
 
-.megamenu {
+/* .megamenu {
     position: absolute;
-    top: 60px;
-    left: 51%;
+    top: 61px;
+    left: 47%;
     background-color: grey;
-    display: flex;
+    display: none;
     list-style-type: none;
     padding: 15px;
+    opacity: 0;
 }
 
 .megamenu ul {
     list-style-type: none;
-    position: relative;
+   
 }
 
-.megamenu>li {
-    padding-right: 20px;
+.megamenu > li {
+    position: relative;
+    padding: 20px;
 }
 
 .megamenu h3 {
     padding-bottom: 14px;
 }
 
-.megamenu ul::before {
+.megamenu > li::before {
     content: '';
     width: 2px;
-    height: 80px;
+    height: 80%;
     background-color: black;
-    inset: 0;
     position: absolute;
-    left: 82px;
+    top: 17px;
+    left: 0;
 }
 
 .megamenu ul::before:last-child {
     display: none;
+}
+.megamenu li:first-child::before{
+    display: none;
+}
+header nav > ul > li:hover .megamenu{
+    display: flex;
+} */
+header nav>ul>li {
+    position: relative;
+}
+
+header .megamenu {
+    position: absolute;
+    top: 41px;
+    right: 1px;
+    opacity: 0;
+}
+
+header .megamenu li {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    list-style-type: none;
+    padding: 15px 12px;
+}
+
+header .megamenu li:hover {
+    background-color: grey;
+}
+
+.megamenu li i {
+    font-size: 15px;
+}
+
+.submenu {
+    position: absolute;
+    top: 50px;
+    left: 99px;
+    opacity: 0;
+}
+
+.submenu li {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    list-style-type: none;
+    padding: 15px 12px;
+}
+
+nav>ul>li:hover .megamenu {
+    opacity: 1;
+}
+
+.megamenu > li:hover .submenu {
+    opacity: 1;
 }
