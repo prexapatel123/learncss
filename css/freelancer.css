@@ -86,10 +86,13 @@ header {
     width: 100%;
 }
 
-.top-hero ul {
+.top-hero .container > ul {
     list-style-type: none;
     display: flex;
+}
 
+.top-hero .container > ul > li {
+    position: relative;
 }
 
 .top-hero ul li a {
@@ -97,27 +100,82 @@ header {
     color: white;
     margin-right: 24px;
     text-decoration: none;
-    padding: 17px 0;
+    padding: 10px 0;
 }
-.top-hero>ul{
-    position: relative;
-}
+
 .top-hero .submenu {
+    width: 150px;
     background-color: white;
     color: black;
-    border: 1px solid white;
     border-radius: 5px;
     /* display: none; */
     display: inline-block;
     position: absolute;
-    top:120px;
-    z-index: 8;
+    top: 50px;
+    left: 0;
+    z-index: 9;
+}
+.top-hero .submenu li {
+    padding: 0 10px;
 }
 
-/* .top-hero .container ul li:hover .submenu {
-    display: block;
-} */
+.top-hero .submenu>li {
+    position: relative;
+}
 
+.top-hero .submenu li a {
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+}
+
+.top-hero .submenu li a i {
+    font-size: 12px;
+}
+
+.submenu1 {
+    width: 300px;
+    background-color: aqua;
+    border-radius: 5px;
+    position: absolute;
+    left: 140px;
+    display: none;
+    /* display: inline-block; */
+}
+.top-hero .submenu1 li{
+    padding: 0 10px;
+}
+
+.top-hero .submenu2>li {
+    position: relative;
+}
+
+.submenu2 {
+    background-color: thistle;
+    border-radius: 5px;
+    left: 300px;
+    position: absolute;
+    display: none;
+    /* display: inline-block; */
+    width: 100%;
+}
+
+.top-hero .submenu2 li {
+    padding: 0 10px;
+}
+
+.top-hero .submenu2 li a {
+    display: inline-block;
+}
+.top-hero .container > ul > li:hover .submenu{
+    display: inline-block;
+}
+.submenu > li:hover .submenu1{
+    display: inline-block;
+}
+.submenu1 > li:hover .submenu2{
+    display: inline-block;
+}
 
 .bottom-hero {
     width: 100%;
@@ -137,7 +195,7 @@ header {
 .left-hero {
     width: 40%;
     color: white;
-    z-index: 9;
+    /* z-index: 9; */
     position: relative;
     padding-top: 150px;
 }
@@ -250,12 +308,12 @@ header {
     display: flex;
 }
 
-.inner-data {
+.inner-data1 {
     display: flex;
 }
 
-.inner-data .chat img,
-.inner-data .mobile img {
+.inner-data1 .chat img,
+.inner-data1 .mobile img {
     width: 70px;
     height: 70px;
     margin-bottom: 25px;
@@ -271,8 +329,8 @@ header {
     height: 540px;
 }
 
-.inner-data .chat h3,
-.inner-data .mobile h3 {
+.inner-data1 .chat h3,
+.inner-data1 .mobile h3 {
     font-size: 20px;
     margin-bottom: 15px;
 }
@@ -291,9 +349,12 @@ header {
     width: 500px;
     height: 500px;
 }
+.secure-data .inner-data2{
+    display: flex;
+}
 
-.inner-data .pay img,
-.inner-data .support img {
+.inner-data2 .pay img,
+.inner-data2 .support img {
     width: 70px;
     height: 70px;
     margin-bottom: 25px;
