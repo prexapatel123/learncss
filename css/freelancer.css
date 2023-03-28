@@ -89,7 +89,14 @@ header {
 .top-hero ul {
     list-style-type: none;
     display: flex;
+}
 
+.top-hero li {
+    padding: 10px 0;
+}
+
+.top-hero>ul>li {
+    position: relative;
 }
 
 .top-hero ul li a {
@@ -97,8 +104,70 @@ header {
     color: white;
     margin-right: 24px;
     text-decoration: none;
-    padding: 17px 0;
 }
+
+.top-hero .submenu {
+    width: 625px;
+    height: 330px;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    /* display: none; */
+    display: inline-block;
+    position: absolute;
+    top: 130px;
+    left: 70px;
+    padding: 10px 0;
+}
+.top-hero .submenu li {
+    padding: 3px 30px;
+}
+
+.top-hero .submenu>li {
+    position: relative;
+}
+
+.top-hero .submenu li a {
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+}
+
+.top-hero .submenu li a i {
+    text-align: right;
+    font-size: 12px;
+}
+
+.top-hero .submenu1 {
+    position: absolute;
+    /* display: none; */
+    display: inline-block;
+}
+
+.top-hero .submenu2>li {
+    position: relative;
+}
+
+.top-hero .submenu2 {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+}
+
+.top-hero .submenu2 li {
+    padding: 3px 70px;
+}
+
+.top-hero .submenu2 li a {
+    display: inline-block;
+}
+/* .top-hero>ul:hover .submenu{
+    display: inline-block;
+} */
+/* .submenu>li:hover .submenu1{
+    display: inline-block;
+} */
 
 .bottom-hero {
     width: 100%;
@@ -118,7 +187,7 @@ header {
 .left-hero {
     width: 40%;
     color: white;
-    z-index: 9;
+    /* z-index: 9; */
     position: relative;
     padding-top: 150px;
 }
@@ -312,14 +381,14 @@ header {
     gap: 15px 23px;
 }
 
-.box{
+.box {
     width: 374px;
     height: 315px;
     margin-top: 60px;
     position: relative;
-    overflow:hidden;
-    
-}  
+    overflow: hidden;
+
+}
 
 .box img {
     width: 100%;
@@ -328,8 +397,8 @@ header {
 
 }
 
-.inner-data{
-    background-color: rgba(0,0,0,0.4);
+.inner-data {
+    background-color: rgba(0, 0, 0, 0.4);
     inset: 0;
     position: absolute;
     opacity: 0;
@@ -351,15 +420,18 @@ header {
 
 
 }
+
 .box:hover .inner-data a,
-.box:hover .inner-data{
+.box:hover .inner-data {
     /* transform: scale(1.2); */
     opacity: 1;
 }
-.design-data:hover .box img{
+
+.design-data:hover .box img {
     transform: scale(1.2);
 }
-.inner-data a:hover{
+
+.inner-data a:hover {
     background-color: rgba(255, 255, 255, 0.47);
 }
 
