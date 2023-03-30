@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    padding: 20px 0;
+    background-color: #9B9B9B;
+   
+}
+
+#header .container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.header-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-title ul {
+    list-style-type: none;
+}
+
+.right-title ul li {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.right-title ul li a {
+    text-decoration: none;
+    color: white;
+}
+.journey {
+    width: 570px;
+    height: 252px;
+    top: 100px;
+    left: 0;
+}
+
+.journey p {
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+}
