@@ -304,12 +304,7 @@ after:last-child {
 
 .submenu1,
 .submenu2,
-.submenu3,
-.submenu4,
-.submenu5,
-.submenu6,
-.submenu7,
-.submenu8 {
+.submenu3{
     width: 230px;
     position: absolute;
     top: 0;
@@ -328,12 +323,7 @@ after:last-child {
 .scroll-bar:hover .submenu,
 .submenu>li:hover .submenu1,
 .submenu1>li:hover .submenu2,
-.submenu2 li:hover .submenu3,
-.submenu li:hover .submenu4,
-.submenu li:hover .submenu5,
-.submenu li:hover .submenu6,
-.submenu li:hover .submenu7,
-.submenu li:hover .submenu8 {
+.submenu2 li:hover .submenu3 {
     display: block;
 }
 
