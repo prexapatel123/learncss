@@ -110,7 +110,7 @@ header {
     width: 140px;
     height: 325px;
     background-color: white;
-    /* display: none; */
+    display: none;
     position: absolute;
     top: 40px;
     left: 0;
@@ -167,7 +167,8 @@ header {
 .top-hero .submenu2 li {
     padding: 0 10px;
 }
-.submenu3{
+
+.submenu3 {
     width: 300px;
     background-color: white;
     top: 0;
@@ -176,6 +177,21 @@ header {
     display: none;
 }
 
+.submenu1 li {
+    position: relative;
+}
+
+.submenu4,
+.submenu5,
+.submenu6,
+.submenu7{
+    width: 300px;
+    background-color: white;
+    top: 0;
+    left: 262px;
+    position: absolute;
+    display: none;
+}
 .top-hero .container>ul>li:hover .submenu {
     display: inline-block;
 }
@@ -187,9 +203,18 @@ header {
 .submenu1>li:hover .submenu2 {
     display: inline-block;
 }
+
 .submenu li:hover .submenu3 {
     display: inline-block;
 }
+
+.submenu1 li:hover .submenu4,
+.submenu1 li:hover .submenu5, 
+.submenu1 li:hover .submenu6,
+.submenu1 li:hover .submenu7{
+    display: inline-block;
+}
+
 .submenu li a:hover {
     color: rgb(47, 156, 245);
 }

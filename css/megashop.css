@@ -105,8 +105,241 @@ after:last-child {
 }
 
 /*******************************************************/
+#main-menu {
+    background-color: white;
+}
 
-.main-decore{
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.left-menu img {
+    width: 100%;
+    height: 100%;
+}
+
+.right-menu ul {
+    list-style-type: none;
+}
+
+.right-menu > ul >li {
+    display: inline-block;
+    color: rgb(55, 65, 77);
+    padding: 0 15px;
+    font-size: 15px;
+    position: relative;
+}
+
+.right-menu ul li a {
+    text-decoration: none;
+    color: rgb(55, 65, 77);
+}
+
+.right-menu ul li a:hover {
+    color: rgb(185, 62, 45);
+}
+
+.right-menu ul i {
+    color: rgb(185, 62, 45);
+    font-size: 24px;
+}
+
+.right-menu img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.right-menu>ul> li::after {
+    content: '';
+    width: 1px;
+    height: 80%;
+    background-color: rgba(119, 119, 119, 0.411);
+    position: absolute;
+    top: 2px;
+    right: 0;
+}
+.right-menu>li{
+    position: relative;
+}
+.megamenu,
+.megamenu1,
+.megamenu2{
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2);
+    width: 166px;
+    background-color: white;
+    z-index: 9;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    display: none;
+
+}
+.right-menu>ul>li:hover .megamenu,
+.right-menu >ul li:hover .megamenu1,
+.right-menu>ul li:hover .megamenu2{
+    display: block;
+}
+.megamenu li,
+.megamenu1 li,
+.megamenu2 li{
+    padding: 10px 20px;
+}
+.megamenu li a{
+    font-size: 14px;
+}
+
+/********************************************************/
+#scroll-menu {
+    background-color: rgb(240, 240, 240);
+    height: 70px;
+}
+
+.scroll-menu {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0;
+}
+
+.scroll-bar {
+    width: 230px;
+    height: 40px;
+    background-color: rgb(231, 90, 72);
+    border-radius: 5px;
+    position: relative;
+    padding: 9px 10px;
+
+}
+
+.scroll-bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+
+.scroll-bar button {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    position: absolute;
+    top: 13px;
+    right: 10px;
+}
+
+.scroll-bar button:hover {
+    background-color: white;
+}
+
+.scroll-bar button i {
+    font-size: 12px;
+    color: rgb(231, 90, 72);
+}
+
+.scroll-menu input {
+    padding: 9px 425px 9px 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+
+.scroll-menu button1 {
+    width: 120px;
+    background-color: rgb(231, 91, 73);
+    border-radius: 5px;
+    padding: 9px 35px;
+    color: white;
+    font-size: 16px;
+}
+
+.scroll-menu button2 {
+    width: 159px;
+    background-color: rgb(194, 216, 46);
+    border-radius: 5px;
+    padding: 9px 10px;
+    font-size: 15px;
+}
+
+.scroll-menu button2 i {
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.submenu {
+    width: 230px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 5px;
+    z-index: 9;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    list-style-type: none;
+    display: none;
+}
+
+.submenu li {
+    padding: 10px 0 10px 10px;
+    position: relative;
+}
+
+.submenu>li {
+    position: relative;
+}
+
+.scroll-bar ul li a {
+    color: black;
+}
+
+.submenu li a i {
+    font-size: 12px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.submenu1,
+.submenu2,
+.submenu3,
+.submenu4,
+.submenu5,
+.submenu6,
+.submenu7,
+.submenu8 {
+    width: 230px;
+    position: absolute;
+    top: 0;
+    left: 228px;
+    list-style-type: none;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 5px;
+    display: none;
+}
+
+.submenu li a:hover {
+    color: rgb(231, 90, 72);
+}
+
+.scroll-bar:hover .submenu,
+.submenu>li:hover .submenu1,
+.submenu1>li:hover .submenu2,
+.submenu2 li:hover .submenu3,
+.submenu li:hover .submenu4,
+.submenu li:hover .submenu5,
+.submenu li:hover .submenu6,
+.submenu li:hover .submenu7,
+.submenu li:hover .submenu8 {
+    display: block;
+}
+
+
+/******************************************************/
+.main-decore {
     display: flex;
     justify-content: space-evenly;
     gap: 0 20px;
@@ -213,49 +446,57 @@ after:last-child {
 button:hover {
     background-color: rgb(185, 62, 45);
 }
+
 /**********************************************/
-#trending .swiper{
+#trending .swiper {
     margin: 50px -10px;
 }
 
-.item-box{
+.item-box {
     margin: 0 10px;
     border: 1px solid rgba(0, 0, 0, 0.171);
     text-align: center;
-    
+
 }
-.item-img{
+
+.item-img {
     position: relative;
 }
-.item-img img{
+
+.item-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center center;
 }
-.item-box p{
+
+.item-box p {
     padding-bottom: 5px;
     font-size: 15px;
 }
-.item-box a+p{
+
+.item-box a+p {
     color: rgb(232, 103, 100);
     padding-bottom: 20px;
     font-weight: bold;
 }
-.item-box a{
+
+.item-box a {
     text-decoration: none;
     color: black;
     font-size: 14px;
 }
-.item-box i{
+
+.item-box i {
     font-size: 12px;
-    color:rgb(242,182,5);
+    color: rgb(242, 182, 5);
     padding-bottom: 10px;
 }
-.item-img button{
+
+.item-img button {
     width: 45px;
     height: 25px;
-    background-color:rgb(232, 103, 100);
+    background-color: rgb(232, 103, 100);
     color: white;
     border-radius: 4px;
     border: none;
@@ -263,39 +504,45 @@ button:hover {
     top: 10px;
     left: 10px;
 }
-.item-img .inner-data1{
+
+.item-img .inner-data1 {
     width: 100%;
     height: 50px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     position: absolute;
     opacity: 0;
 }
-.item-img .inner-data1 a{
+
+.item-img .inner-data1 a {
     display: inline-block;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color:rgb(231,100,83);
+    background-color: rgb(231, 100, 83);
     padding: 11px 10px;
 
 }
-.item-img .inner-data1 i{
+
+.item-img .inner-data1 i {
     color: white;
 }
-.item-box:hover .item-img .inner-data1{
+
+.item-box:hover .item-img .inner-data1 {
     opacity: 1;
     transition: all 1s;
 }
-.item-box:hover button{
+
+.item-box:hover button {
     opacity: 0;
 }
+
 .main-trend .swiper-button-next {
     right: 1px;
     width: 30px;
     height: 30px;
-    background-color: rgb(193,193,193);
+    background-color: rgb(193, 193, 193);
     border-radius: 50%;
     color: white;
 }
@@ -312,7 +559,7 @@ button:hover {
     left: 1px;
     width: 30px;
     height: 30px;
-    background-color: rgb(193,193,193);
+    background-color: rgb(193, 193, 193);
     border-radius: 50%;
     color: white;
 
@@ -339,9 +586,10 @@ button:hover {
 .blog {
     margin: 0 13px;
     border: 1px solid rgba(158, 154, 154, 0.618);
-   
+
 }
-.box-img{
+
+.box-img {
     position: relative;
 }
 
@@ -422,14 +670,16 @@ button:hover {
     opacity: 1;
 
 }
-.swiper{
+
+.swiper {
     margin: 0 -14px;
 }
+
 .page-blog .swiper-button-next {
     right: 1px;
     width: 30px;
     height: 30px;
-    background-color: rgb(193,193,193);
+    background-color: rgb(193, 193, 193);
     border-radius: 50%;
     color: white;
 }
@@ -446,7 +696,7 @@ button:hover {
     left: 1px;
     width: 30px;
     height: 30px;
-    background-color: rgb(193,193,193);
+    background-color: rgb(193, 193, 193);
     border-radius: 50%;
     color: white;
 
@@ -459,5 +709,5 @@ button:hover {
 .page-blog .swiper-button-prev:after {
     font-size: 12px;
 }
-/********************************************************/
 
+/********************************************************/
